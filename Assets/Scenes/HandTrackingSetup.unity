@@ -761,7 +761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &194794742
 Transform:
   m_ObjectHideFlags: 0
@@ -2996,6 +2996,7 @@ GameObject:
   - component: {fileID: 921571250}
   - component: {fileID: 921571249}
   - component: {fileID: 921571248}
+  - component: {fileID: 921571251}
   m_Layer: 5
   m_Name: Far Canvas
   m_TagString: Untagged
@@ -3165,6 +3166,37 @@ MonoBehaviour:
   _pointableElement: {fileID: 921571248}
   _collider: {fileID: 1564915299}
   _surface: {fileID: 0}
+--- !u!114 &921571251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921571242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f8f6e9e6f3e114b9bf9a57c2160615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _pointable: {fileID: 921571248}
+  _whenHover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnhover:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenUnselect:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenMove:
+    m_PersistentCalls:
+      m_Calls: []
+  _whenCancel:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &924888686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3198,7 +3230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3435321349889078745, guid: feb3cf1b66abe5645be7699b092ffe40, type: 3}
       propertyPath: m_IsKinematic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3435321349889078749, guid: feb3cf1b66abe5645be7699b092ffe40, type: 3}
       propertyPath: m_RootOrder
